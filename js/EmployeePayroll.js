@@ -1,7 +1,9 @@
 class EmployeePayrollData {
 
 
-    //getter and setter method
+    /**
+     * getter and setter method
+     */
     get id() {
         return this._id = id;
     }
@@ -53,7 +55,9 @@ class EmployeePayrollData {
     set startDate(startDate){
         this._startDate=startDate;
     }
-    //method
+    /**
+     * method
+     */
     toString(){
         const options={year:'numeric',month:'long',day:'numeric'};
         const empDate=!this._startDate ? "undefined" :
